@@ -4,18 +4,14 @@
 
 import React from "react";
 import ReactDOM from "react-dom/client";
-const parent=React.createElement('div',{id:"Parent"},
-[React.createElement('div',{id:"child1"},
-[React.createElement('h1',{},"kidda veere❤️❤️❤️🚀🚀🚀"),
-React.createElement('h2',{},"I'm an h2 tage")]
-),  
-React.createElement('div',{id:"child2"},
-[React.createElement('h1',{},"I'm an h1 tage"),
-React.createElement('h2',{},"I'm an h2 tage")]
-)
-// JSX
 
-])
-console.log(parent)
+const heading=React.createElement('h1',{id:"h1"},"Oye hoye💀☕❤️🚀")
 const Root=ReactDOM.createRoot(document.getElementById('root'))
-Root.render(parent)
+
+console.log(heading)
+const jsxHeading=<h1 className="balle">Oye balle balle☕🚀🚀🚀🚀</h1>
+console.log(jsxHeading  )
+Root.render(jsxHeading)
+// Root.render(heading);
+
+// js=> React.create element=>React element i.e a js object=>Html content after renderd
